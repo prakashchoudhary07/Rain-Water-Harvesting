@@ -3,6 +3,7 @@
 class RainWaterHarvesting {
 
  calculateCollectedWater(arr) {
+  if (!arr) return undefined
   const leftMax = [], rightMax = [];
   const arrayLength = arr.length;
   let max = 0;

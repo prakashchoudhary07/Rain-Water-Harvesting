@@ -9,3 +9,5 @@ console.log(wh.calculateCollectedWater([1]) === 0);
 console.log(wh.calculateCollectedWater([1, 1]) === 1);
 console.log(wh.calculateCollectedWater([1, 2, 1]) === 2);
 console.log(wh.calculateCollectedWater([1, 3, 1, 3, 1]) === 8);
+console.log(wh.calculateCollectedWater([]) === 0);
+console.log(wh.calculateCollectedWater(null) === undefined);
